@@ -55,7 +55,7 @@ The hosted app is a testnet web deployment. The Go API/indexer must be run separ
 
 From the repository root, the main checks are `pnpm build`, `pnpm lint`, `pnpm typecheck`, and `pnpm test`. Run Go checks from `indexer/` with `go test ./...` and `go vet ./...`.
 
-Start with the [local setup guide](docs/developer-guide/local-setup.md), [architecture overview](docs/ARCHITECTURE.md), and [contribution guide](docs/contributing/how-to-contribute.md). For protocol details, see [how it works](docs/introduction/how-it-works.md), the [invoice lifecycle](docs/protocol/invoice-lifecycle.md), and the [economic model](docs/protocol/economic-model.md).
+Start with the [local setup guide](docs/developer-guide/local-setup.md), [architecture overview](docs/ARCHITECTURE.md), and [contribution guide](docs/contributing/how-to-contribute.md). For RPC outages, database restores, ledger gaps, and webhook replay, see the [indexer operations runbook](docs/developer-guide/indexer-operations.md). For protocol details, see [how it works](docs/introduction/how-it-works.md), the [invoice lifecycle](docs/protocol/invoice-lifecycle.md), and the [economic model](docs/protocol/economic-model.md).
 
 ## Network and security
 

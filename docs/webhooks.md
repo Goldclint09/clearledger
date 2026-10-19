@@ -308,6 +308,10 @@ environment.
 A delivery gets **5 attempts**: the first attempt plus 4 retries with
 exponential backoff.
 
+For the operational procedure to inspect and manually replay `pending` or
+`dead_letter` rows, see the
+[Indexer Operations Runbook](developer-guide/indexer-operations.md#5-webhook-replay-for-failed-subscribers).
+
 | Attempt | When                                              |
 | ------- | ------------------------------------------------- |
 | 1       | On the next poll after the event is indexed       |
